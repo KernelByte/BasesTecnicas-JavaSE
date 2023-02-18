@@ -21,7 +21,7 @@ public class OperadoresAsignacion {
 
         vidas++; // Incremento
         System.out.println("Numero de vidas es: "+vidas);
-        
+
         int bonus = 100 + vidas++; // Posfijo
         System.out.println("Numero de bonus es: "+bonus);
 
