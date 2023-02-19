@@ -1,7 +1,7 @@
 public class Sentencias {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 1; // Nivel de alcance alto
+        int a = 2;
+        int b = 2; // Nivel de alcance alto
 
         int resultado = a*b;
 
@@ -20,5 +20,24 @@ public class Sentencias {
         *    ||        OR     a || b
         *    !         NOT     !a
         * */
+
+        // Sentencia Switch
+        switch (resultado){
+            case 2:
+                System.out.println("El resultado es dos");
+                break;
+            case 3:
+                System.out.println("El resultado es tres");
+                break;
+            case 4:
+                System.out.println("El resultado es cuatro");
+                break;
+            case 5:
+                System.out.println("El resultado es cinco");
+                break;
+            default:
+                System.out.println("Ningun valor fue correcto en el Switch");
+                break;
+        }
     }
 }
