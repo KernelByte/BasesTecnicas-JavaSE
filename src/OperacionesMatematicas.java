@@ -15,5 +15,10 @@ public class OperacionesMatematicas {
         System.out.println(Math.sqrt(b));
         // Devuelve el area de un circulo
         System.out.println(Math.PI * Math.pow(a,2));
+
+        /* CASTEO DE VARIABLES */
+        double suma = 20.7;
+        int sumaInt = (int) suma;
+        System.out.println("Valor Casteado: "+sumaInt);
     }
 }
