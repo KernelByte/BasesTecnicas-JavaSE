@@ -56,5 +56,9 @@ public class Sentencias {
             //Instrucciones
         }while (condicion);
         */
+
+        //Uso de operador ternario - Primer Valor TRUE:FALSE
+        String valorFinal = (resultado == 5)?"El valor es 5":"El valor no es 5";
+        System.out.println("Valor retornado del operador ternario: "+valorFinal);
     }
 }
