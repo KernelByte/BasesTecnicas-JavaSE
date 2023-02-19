@@ -39,5 +39,22 @@ public class Sentencias {
                 System.out.println("Ningun valor fue correcto en el Switch");
                 break;
         }
+
+        // Sentencia While
+        int contador = 0;
+        while (resultado == 4){
+            contador++;
+            if (contador==7){
+                resultado++;
+                System.out.println("Fin de la ejecucion while en: "+resultado+" y while se ejecuto: "+contador+" veces");
+            }
+        }
+
+        /* Sentencia do while
+        do {
+
+            //Instrucciones
+        }while (condicion);
+        */
     }
 }
